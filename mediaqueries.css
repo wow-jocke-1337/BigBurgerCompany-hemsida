@@ -1,0 +1,149 @@
+@media (max-width: 2000px){
+
+    .header ul{
+      padding-right: 0px;
+    }
+    .bottom-footer{
+      padding-left: 80vh;
+    }
+}
+    
+@media (max-width: 1400px){
+    .header {
+      width: 100%;
+    }
+  
+    .header ul {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding-right: 0px;
+  }
+  
+  .banner{
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+  }
+  
+  .bottom-footer{
+    padding-left: 1vh;
+  }
+}
+  
+  
+  
+  @media (max-width: 1000px){
+  
+  .banner{
+    width: 100%;
+    background-size: cover;
+    height: 30vh;
+  }
+  
+  .bottom-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .header ul {
+    display: block;
+  }
+}
+  
+@media (max-width: 600px){
+    
+  .header ul {
+    display: block;
+  }
+
+  .banner{
+    background: #000000;
+    width: 100%;
+    background-size: cover;
+    height: 20vh;
+  }
+
+  .google-map iframe {
+    transform: scale(0.8);
+  }
+  .tablebox input button {
+    transform: scale(0.7);
+  }
+  .contact-info {
+    margin: auto;
+
+
+  }
+}
+    
+@media (max-width: 451px){
+
+  .banner{
+    background:#ffffff;
+    width: 100%;
+    background-size: cover;
+    height: 15vh;
+  }
+  .header ul {
+    display: block;
+  }
+
+  .contact-info {
+    margin: auto;
+    width: 300px;
+    margin-left: 20px;
+  
+  }
+}
+
+  
+@media (max-width: 300px){
+
+  .header ul {
+    display: block;
+  }
+  .list{
+    width: 300px;
+  }
+  .tablebox {
+    max-width: 300px;
+  }
+  .listcon{
+    max-width: 300px;
+    
+    float: left;
+    /*margin-right: 20%;*/
+  }
+  tr {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .image {
+    width: 200px;
+  }
+  .contact-info {
+    margin: auto;
+    width: 300px;
+  
+  }
+  .banner {
+    height: 10vh;
+    background: #ffffff;
+  }
+  .logo {
+    transform: scale(0.4);
+    position: absolute;
+    right: 170px;
+    bottom: 100px;
+    
+  }
+}
